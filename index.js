@@ -1,10 +1,9 @@
-import React from "react"
-import ReactDOM from 'react-dom'
+import ReactDOM from 'react-dom/client'
+import App from './App'
 
-const heading = React.createElement("h1", {}, "Parcel-React-App is now Running ⚡")
 
 const root = ReactDOM.createRoot(document.querySelector("#root"))
 
-root.render(heading)
+root.render(<App/>)
 
 
